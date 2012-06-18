@@ -16,7 +16,7 @@ public class Quest {
 	private static final int WIDGET_SCROLL_CONTAINER = 15;
 
 	public static enum STATUS {
-		DONE(65280), IN_PROGRESS(16776960), NOT_STARTED(16711680);
+		DONE(65280), IN_PROGRESS(65535), NOT_STARTED(16711680);
 		private int color;
 
 		STATUS(int color) {
